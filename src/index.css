@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(0,0,33);
+  font-family: 'Poppins',sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+hr {
+  border: none;
+  height: 2px; /* Thicker line */
+  background-color: #bbb; /* Slightly darker line color */
+  position: relative;
+  width: 75%; /* Slightly narrower width */
+  margin: 40px auto;
+}
+
+hr:before {
+  content: "✔"; /* New icon */
+  position: absolute;
+  top: -25px; /* Move icon higher */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 10px;
+  color: #2ecc71; /* Green color for the check mark */
+  font-size: 1.2rem;
+  border-radius: 50%; /* Circle around the icon */
+  border: 2px solid #2ecc71; /* Border around the circle */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for the circle */
+}
+
