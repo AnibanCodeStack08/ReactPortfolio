@@ -18,9 +18,9 @@ import { faFacebook, faGithub, faLinkedin, faInstagram } from '@fortawesome/free
 function Skill() {
   return (
     <>
-      <div class="heading-container">
-        <div class="heading">SKILLS</div>
-        <div class="line"></div>
+      <div className="heading-container">
+        <div className="heading">SKILLS</div>
+        <div className="line"></div>
       </div>
       <div className='All_skill'>  
           <div className='All-skills'>
@@ -90,8 +90,8 @@ function Skill() {
           </div>
 
 
-          <div class="skill_details">
-    <div class="skill_card">
+          <div className="skill_details">
+    <div className="skill_card">
       <h2>Frontend</h2>
       <ul>
         <li><span>Proficient in:</span> React.js, JavaScript, HTML5, CSS3, and responsive design principles.</li>
@@ -99,7 +99,7 @@ function Skill() {
       </ul>
     </div>
 
-    <div class="skill_card">
+    <div className="skill_card">
       <h2>Backend</h2>
       <ul>
         <li><span>Proficient in:</span> PHP and Laravel for server-side development.</li>
