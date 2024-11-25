@@ -1,15 +1,15 @@
 import React from 'react';
 
 // Importing images from assets folder
-import HTML5 from '../assets/HTML5.png'; 
-import CSS3 from '../assets/css3.png';
-import javascriptLogo from '../assets/javascript.png';
-import ReactJS from '../assets/Reactjs.jpg';
-import PHP from '../assets/PHP.png';
-import API from '../assets/API.png';
-import Laravel from '../assets/Laravel.png';
-import MySQL from '../assets/MYSQL.jpg';
-import Skillpic from '../assets/SkillPhoto.jpg';
+import Htmllogo from '../assets/HTML5.png'; 
+import Csslogo from '../assets/css3.png';
+import JavascriptLogo from '../assets/javascript.png';
+import Reactjslogo from '../assets/Reactjs.jpg';
+import Phplogo from '../assets/PHP.png';
+import Apilogo from '../assets/API.png';
+import Laravellogo from '../assets/Laravel.png';
+import Mysqllogo from '../assets/MYSQL.jpg';
+import Skilllogo from '../assets/SkillPhoto.jpg';
 
 // Import FontAwesomeIcon and brand icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -27,28 +27,28 @@ function Skill() {
             <div className="skill_container">
             <div className="icon">
               <div className="imgBx active" style={{ '--i': 1 }}>
-                <img src={HTML5} alt="HTML5" />
+                <img src={Htmllogo} alt="HTML5" />
               </div>
               <div className="imgBx active" style={{ '--i': 2 }}>
-                <img src={CSS3} alt="CSS3" />
+                <img src={Csslogo} alt="CSS3" />
               </div>
               <div className="imgBx active" style={{ '--i': 3 }}>
-                <img src={javascriptLogo} alt="JavaScript" />
+                <img src={JavascriptLogo} alt="JavaScript" />
               </div>
               <div className="imgBx active" style={{ '--i': 4 }}>
-                <img src={ReactJS} alt="ReactJS" />
+                <img src={Reactjslogo} alt="ReactJS" />
               </div>
               <div className="imgBx active" style={{ '--i': 5 }}>
-                <img src={PHP} alt="PHP" />
+                <img src={Phplogo} alt="PHP" />
               </div>
               <div className="imgBx active" style={{ '--i': 6 }}>
-                <img src={API} alt="API" />
+                <img src={Apilogo} alt="API" />
               </div>
               <div className="imgBx active" style={{ '--i': 7 }}>
-                <img src={Laravel} alt="Laravel" />
+                <img src={Laravellogo} alt="Laravel" />
               </div>
               <div className="imgBx active" style={{ '--i': 8 }}>
-                <img src={MySQL} alt="MySQL" />
+                <img src={Mysqllogo} alt="MySQL" />
               </div>
             </div>
 
@@ -56,7 +56,7 @@ function Skill() {
               <div className='contentBx active' id='content1'>
                 <div className='card'>
                   <div className='imgBx'>
-                    <img src={Skillpic} alt='Profile' />
+                    <img src={Skilllogo} alt='Profile' />
                   </div>
                   <div className='textBx'>
                     <h2>Anirban<br /><span>Sarkar</span></h2>
