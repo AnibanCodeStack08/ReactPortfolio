@@ -1,15 +1,15 @@
 import React from 'react';
 
 // Importing images from assets folder
-import Htmllogo from '../assets/HTML5.png'; 
-import Csslogo from '../assets/css3.png';
-import JavascriptLogo from '../assets/javascript.png';
-import Reactjslogo from '../assets/Reactjs.jpg';
-import Phplogo from '../assets/PHP.png';
-import Apilogo from '../assets/API.png';
-import Laravellogo from '../assets/Laravel.png';
-import Mysqllogo from '../assets/MYSQL.jpg';
-import Skilllogo from '../assets/SkillPhoto.jpg';
+import Htmllogo from '/assets/HTML5.png'; 
+import Csslogo from '/assets/css3.png';
+import JavascriptLogo from '/assets/javascript.png';
+import Reactjslogo from '/assets/Reactjs.jpg';
+import Phplogo from '/assets/PHP.png';
+import Apilogo from '/assets/API.png';
+import Laravellogo from '/assets/Laravel.png';
+import Mysqllogo from '/assets/MYSQL.jpg';
+import Skilllogo from '/assets/SkillPhoto.jpg';
 
 // Import FontAwesomeIcon and brand icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
