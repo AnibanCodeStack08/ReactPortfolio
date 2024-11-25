@@ -3,7 +3,7 @@ import React from 'react';
 // Importing images from assets folder
 import HTML5 from '../assets/HTML5.png'; 
 import CSS3 from '../assets/css3.png';
-import JavaScript from '../assets/javascript.png';
+import javascriptLogo from '../assets/javascript.png';
 import ReactJS from '../assets/Reactjs.jpg';
 import PHP from '../assets/PHP.png';
 import API from '../assets/API.png';
@@ -33,7 +33,7 @@ function Skill() {
                 <img src={CSS3} alt="CSS3" />
               </div>
               <div className="imgBx active" style={{ '--i': 3 }}>
-                <img src={JavaScript} alt="JavaScript" />
+                <img src={javascriptLogo} alt="JavaScript" />
               </div>
               <div className="imgBx active" style={{ '--i': 4 }}>
                 <img src={ReactJS} alt="ReactJS" />
